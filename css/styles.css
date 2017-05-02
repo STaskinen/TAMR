@@ -1,0 +1,47 @@
+a{
+    color:green;
+}
+body{
+    background-color: darkblue;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    font-size: 25px;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.frontInput{
+    font-size: 25px;
+    background-color: #5a4fcf;
+    width: 300px;
+    height: 35px;
+    color: white;
+}
+
+.songPlayer{
+    min-height: 150px;
+    min-width: 150px;
+    max-height: 320px;
+    max-width: 320px;
+    background-color: green;
+}
+
+#songLibrary{
+    max-width: 910px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
